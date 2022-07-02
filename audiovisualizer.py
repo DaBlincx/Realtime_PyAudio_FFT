@@ -6,7 +6,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--device', type=int, default=None, dest='device',
                         help='pyaudio (portaudio) device index')
-    parser.add_argument('--height', type=int, default=450, dest='height',
+    parser.add_argument('--height', type=int, default=1000, dest='height',
                         help='height, in pixels, of the visualizer window')
     parser.add_argument('--n_frequency_bins', type=int, default=400, dest='frequency_bins',
                         help='The FFT features are grouped in bins')
